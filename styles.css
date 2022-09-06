@@ -1,0 +1,131 @@
+:root{
+    --green-nerea: #04706E;
+    --light-green-nerea: #E1FFBD;
+    --font-Montserrat: 'Montserrat', sans-serif;
+
+    }
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+    
+html{
+    font-size: 62.5%;
+    font-family: var(--font-Montserrat);
+    background-color: #333333;
+    color: var(--light-green-nerea);
+}
+/* Icons */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.recipe-card-container {
+      width: 100%;
+      min-width: 320px;
+      height: auto;
+      margin-top: 32px;
+      padding-left: 11px;
+      padding-right: 12px;
+}
+.recipe-card-container h1{
+    font-family: 'John Mayer';
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.recipe-body-container {
+    display: flex;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    margin-top: 12px;
+
+}
+.quote {
+    width: 24px;
+    height: 19px;
+    color: white;
+    transform: rotate(90deg);
+}
+.recipe-body-container p {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-style: italic;
+    padding-right: 12px;
+}
+.recipe-img{
+    margin-top: 12px;
+    width: 100%;
+    min-width: 297px;
+    height: 200px;
+    background-image: url('./assets/croissant.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+/* INFO CONTAINER */
+.recipe-info-container{
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+}
+.servings-time{
+    display: flex;
+    justify-content: space-between;
+}
+.servings{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;  
+}
+.servings-text-container{
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.servings--title{
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1rem;
+    color: #BDBDBD;
+}
+.servings--body{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+}
+/* CARD IMG */
+.servings .fork{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/fork.png);
+}
+.servings .clock{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/clock.png);
+}
