@@ -68,6 +68,7 @@ html{
     margin-top: 12px;
     width: 100%;
     min-width: 297px;
+    max-width: 900px;
     height: 200px;
     background-image: url('./assets/croissant.jpeg');
     background-repeat: no-repeat;
@@ -169,6 +170,7 @@ html{
 .instructions-card-container{
     width: 100%;
     min-width: 320px;
+    max-width: 530px;
     height: auto;
     margin-top: 32px;
     padding-left: 11px;
@@ -179,20 +181,69 @@ html{
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.4rem;
-    letter-spacing: 0em;  
+    margin-bottom: 24px; 
 }
 .instructions-body {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
+    margin-bottom: 35px;
 }
 .step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 36px;
     height: 36px;
-    background-color: orange;
-    color: white;
+    background-color: var(--light-green-nerea);
+    color: var(--green-nerea);
+    border-radius: 6px;
+    font-family: var(--font-John-mayer);
+    font-size: 2rem;
 }
 .step-detail{
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+.source {
+    margin: 12px;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.8rem;  
+    color: #BDBDBD;
+}
+.source a{
+    text-decoration: none;
+    color: #BDBDBD;
+}
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+.footer-text-container{
+    width: 100%;
+    max-width: 287px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--text-footer);
 
+}
+.footer-text-container a{
+    color: var(--text-footer);
+    font-weight: bold;
+    text-decoration: none;
 }
