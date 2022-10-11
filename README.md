@@ -10,7 +10,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://ibraturk.github.io/recipe-page-nerea/">
+    <a href="https://ibra-gragirena.github.io/recipe-page-nerea/">
       Demo
     </a>
     <span> | </span>
